@@ -27,12 +27,18 @@ UM.Dialog
         else if (Qt.platform.os == "windows"){
             900 * screenScaleFactor
         }
+        else if (Qt.platform.os == "osx"){
+            900 * screenScaleFactor
+        }
     }
     height: {
         if (Qt.platform.os == "linux"){
             590 * screenScaleFactor
         }
         else if (Qt.platform.os == "windows"){
+            750 * screenScaleFactor
+        }
+        else if (Qt.platform.os == "osx"){
             750 * screenScaleFactor
         }
     }
@@ -43,12 +49,18 @@ UM.Dialog
         else if (Qt.platform.os == "windows"){
             750 * screenScaleFactor
         }
+        else if (Qt.platform.os == "osx"){
+            750 * screenScaleFactor
+        }
     }
     minimumWidth: {
         if (Qt.platform.os == "linux"){
             730 * screenScaleFactor
         }
         else if (Qt.platform.os == "windows"){
+            900 * screenScaleFactor
+        }
+        else if (Qt.platform.os == "osx"){
             900 * screenScaleFactor
         }
     }
